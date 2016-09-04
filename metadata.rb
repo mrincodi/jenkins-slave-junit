@@ -6,5 +6,6 @@ description 'Installs/Configures jenkins_slave'
 long_description 'Installs/Configures jenkins_slave'
 version '0.1.0'
 
-# depends 'apt', '~> 2.9.2'
+depends 'apt', '~> 2.9.2'
 depends 'git', '~> 5.0.0'
+depends 'java_se', '~> 8.102.1'
